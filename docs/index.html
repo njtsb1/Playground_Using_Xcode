@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Picks AI - Animation & Anime Catalog</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <!-- Font Awesome for Sun/Moon Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body class="dark-theme">
+
+    <header class="main-header">
+        <div class="header-container">
+            <h1 class="logo" data-i18n="app-title">Movie Picks AI</h1>
+            
+            <div class="controls-wrapper">
+                <!-- Language Selector -->
+                <div class="lang-selector-wrapper">
+                    <label for="lang-select" class="visually-hidden" data-i18n="label-lang">Select Language</label>
+                    <select id="lang-select" class="control-select">
+                        <option value="en">EN-US</option>
+                        <option value="pt">PT-BR</option>
+                        <option value="es">ES-ES</option>
+                    </select>
+                </div>
+
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="btn-toggle" aria-live="polite" aria-label="Toggle light theme">
+                    <i class="fas fa-moon" id="theme-icon" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" class="catalog-container">
+        <section class="intro-section">
+            <h2 data-i18n="catalog-heading">AI Classic Collection</h2>
+            <p data-i18n="catalog-description">Explore our curated bootcamp selection of legendary anime and animated movies.</p>
+        </section>
+
+        <!-- Responsive Grid Grid -->
+        <div class="movie-grid" id="movie-catalog" role="region" aria-label="Movie Catalog">
+            <!-- Movie cards dynamically generated or updated via script -->
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Developed by Nivaldo Beirão</p>
+    </footer>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
