@@ -1,0 +1,63 @@
+# Xcode
+#
+# Reference for gitignore: https://github.com
+
+## Build artifacts
+build/
+DerivedData/
+
+## Architecture diagnostics
+*.xcresult/
+
+## Xcode dependencies
+# Restoring these files is handled automatically by Xcode during a build
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/xcode/xcshareddata/
+
+## Scheme settings
+# Only comment out this line if you want to share custom schemes with your team
+# xcshareddata/xcschemes/
+
+## User-specific files
+*.mode1v3
+*.mode2v3
+*.storyboarduser
+*.perspectivev3
+*.pbxuser
+xcuserdata/
+
+## Core Data
+*.xcuserstate
+
+## OMTJ / AppCode
+.idea/
+
+## Localization
+*.moved-aside
+
+## macOS artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two spaces
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP shares
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
