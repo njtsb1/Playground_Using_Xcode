@@ -17,8 +17,8 @@ In this project challenge, we will practice the concepts learned during the cour
 
 The project layout follows standard iOS application development conventions:
 
-* **`Movie-Picks/`**: Contains the source code files (`.swift`), user interface layers (`.storyboard`), and digital assets (`.xcassets`).
-* **`Movie-Picks.xcodeproj/`**: Xcode project configuration wrapper containing structure definitions (`project.pbxproj`) and workspace metadata.
+- **`Movie-Picks/`**: Contains the source code files (`.swift`), user interface layers (`.storyboard`), and digital assets (`.xcassets`).
+- **`Movie-Picks.xcodeproj/`**: Xcode project configuration wrapper containing structure definitions (`project.pbxproj`) and workspace metadata.
 
 ## Swift Fundamentals Challenge
 
@@ -31,14 +31,16 @@ Integrated into the initialization lifecycle of the `Movie` model is a dedicated
 
 ## Features
 
-* **Custom TableView Configuration**: Displays visual movie lists leveraging layout recycling via `CustomTableViewCell`.
-* **Asynchronous Image Loading**: Handles high-performance multi-threaded image loading from remote servers using background threads in `URLSession`.
-* **Dynamic Content Search**: Prepared input terminal handling text ingestion ready to connect with AI-based movie suggestion models or external network APIs.
+- **Custom TableView Configuration**: Displays visual movie lists leveraging layout recycling via `CustomTableViewCell`.
+- **Asynchronous Image Loading**: Handles high-performance multi-threaded image loading from remote servers using background threads in `URLSession`.
+- **Dynamic Content Search**: Prepared input terminal handling text ingestion ready to connect with AI-based movie suggestion models or external network APIs.
 
 ## Requirements
 
-* **Development Environment**: Xcode 8.3.3 or higher
-* **Programming Language**: Swift 3.3 / 4.x compatible
-* **Platform Deployment Target**: iOS 10.0+
+- **Development Environment**: Xcode 8.3.3 or higher
+- **Programming Language**: Swift 3.3 / 4.x compatible
+- **Platform Deployment Target**: iOS 10.0+
+
+![screenshot](docs/assets/movie_picks_demo_web.png)
 
 [LICENSE](/LICENSE)
