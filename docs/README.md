@@ -10,4 +10,6 @@ An adaptive, production-ready frontend module built using semantic **HTML5**, mo
 * **Dynamic Grid Injection**: Leverages optimized `CSS Grid` auto-fill configurations executing responsive adjustments matching Desktop monitors, Tablet devices, and Mobile screens securely.
 * **A11y Standards (WCAG Compilant)**: Features `aria-live` state tracking controls, clean contrast boundaries, keyboard focus outlines, skip layout indicators, and clean `aria-labels` for reading software compatibility.
 
+![screenshot](assets/movie_picks_demo_web.png)
+
 [LICENSE](./LICENSE)
