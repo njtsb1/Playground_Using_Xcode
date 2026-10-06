@@ -7,11 +7,11 @@ In this project challenge, we will practice the concepts learned during the cour
 
 ### The Challenge
 
-• Create a playground project using Xcode.
-• Define a _constant_ with the initial value "Steve".
-• Define a _variable_ of type optional String with the initial value "Jobs".
-• Write a print statement using string interpolation with the _constant_ and the _variable_, specifying a default value of "Wozniak" for the optional _variable_.
-• Perform optional binding on the _variable_ and, within the condition, write another print statement using interpolation between the _constant_ and the unwrapped _variable_.
+- Create a playground project using Xcode.
+- Define a _constant_ with the initial value "Steve".
+- Define a _variable_ of type optional String with the initial value "Jobs".
+- Write a print statement using string interpolation with the _constant_ and the _variable_, specifying a default value of "Wozniak" for the optional _variable_.
+- Perform optional binding on the _variable_ and, within the condition, write another print statement using interpolation between the _constant_ and the unwrapped _variable_.
 
 ## Project Structure
 
